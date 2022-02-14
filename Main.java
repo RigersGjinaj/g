@@ -5,7 +5,9 @@ public class Main{
      Pietro p=new Pietro();
 
 
-       System.out.println(p.pietroConta(x)); 
+       System.out.println(p.pietroConta()); 
+      p.setNome("angelo");
+       p.nomePietro();
 
 
 
